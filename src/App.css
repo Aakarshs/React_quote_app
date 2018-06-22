@@ -1,0 +1,87 @@
+body{
+  padding-top: 50px;
+ 
+  
+}
+
+.App {
+ text-align: center;
+
+}
+
+.circle{
+  margin: auto;
+ text-align: center;
+  vertical-align: baseline;
+  position: relative;
+  bottom: -300px;
+  
+}
+
+.quote{
+  margin: auto;
+  width: 400px;
+  height: 200px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.button {
+  color: white;
+  font-weight: bold;
+  font-size:10px;
+  padding: 15px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border: none;
+  text-decoration: none;
+  border-radius: 50px 50px 50px 50px;
+}
+
+.button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.spanquote{
+  font-size:50px;
+
+}
+
+.bg{
+  margin: auto;
+  width: 500px;
+  height: 500px;
+ text-align: center;
+  background-color:white;
+  vertical-align: baseline;
+  border-radius: 50%;
+  z-index: -100;
+  position: relative;
+  top:-200px;
+}
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.twitter{
+
+ max-width: 200px;
+ max-height:200px;
+ position: relative;
+ bottom:100px;
+}
+
+.tumblr{
+
+  max-width: 62px;
+  max-height:62px;
+  position: relative;
+  bottom:115px;
+  right:55px;
+ }
