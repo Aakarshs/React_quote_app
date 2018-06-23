@@ -2,29 +2,21 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './App.css';
 
-
 class App extends React.Component {
 
   render() {
-   
     return (
       
       <div className="app">
-        
-          <div className="circle"> 
-          <Header />  
-        
+        <div className="circle"> 
+            <Header />  
           </div>
-          
-          <div className = "bg"></div>
+        <div className = "bg"></div>
          
       </div>
     );
   }
 }
-
-//===================================================================================================================
-//===================================================================================================================
 
 //===================================================================================================================
 //===================================================================================================================
@@ -70,8 +62,7 @@ class Header extends React.Component{
           text: this.state.quotes[rand], 
           author: this.state.author_arr[rand],
           color: this.state.colorsarr[Math.floor(Math.random() * 9)] 
-      });
-    
+      }); 
   }
   
 
@@ -97,8 +88,8 @@ class Header extends React.Component{
           <a href="https://www.tumblr.com/"> <img className="tumblr" src={require('./tumblr.png')} alt="tumblr-icon" href="https://www.google.com" /> </a>
        
       </div>
-  );
-}
+    );
+  }
 }
 
 
